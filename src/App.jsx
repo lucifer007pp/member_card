@@ -16,9 +16,9 @@ export default function MarinersMemberCard({
     return (
         <div className="min-h-screen bg-[#013220] flex items-start justify-center py-12 px-6">
             <div className="w-full max-w-3xl rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.6)] shadow-emerald-950/70 border border-emerald-800 bg-[#671a2a]">
-                {/* Header with gradient */}
+                {/* Header with solid maroon background */}
                 <header className="rounded-t-lg overflow-hidden shadow-lg">
-                    <div className="bg-gradient-to-r from-[#671a2a] to-[#013220] px-8 py-6 text-center">
+                    <div className="bg-[#671a2a] px-8 py-6 text-center">
                         <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight drop-shadow-lg">
                             Mariners Arena Member Profile
                         </h1>
